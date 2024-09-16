@@ -1,7 +1,7 @@
 import React from "react";
 
 const Codingenv = () => {
-  return <div>codingenv</div>;
+  return <div></div>;
 };
 
 export default Codingenv;
