@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Client from "../components/Clients";
+import Editor from "../components/Editor";
 
 const Codingenv = () => {
   const [clients, setClients] = useState([
@@ -20,8 +21,12 @@ const Codingenv = () => {
             ))}
           </div>
         </div>
+        <button className="btn copyBtn">Copy ROOM ID</button>
+        <button className="btn leaveBtn"> Leave</button>
       </div>
-      <div className="editorWrap"> Editor goes here</div>
+      <div className="editorWrap">
+        <Editor />
+      </div>
     </div>
   );
 };
