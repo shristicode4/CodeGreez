@@ -1,4 +1,4 @@
-import { io } from "socket.io-client";
+/*import { io } from "socket.io-client";
 
 export const initSocket = async () => {
   const options = {
@@ -8,4 +8,4 @@ export const initSocket = async () => {
     transports: ["websocket"],
   };
   return io(process.env.React_App_Backend_URL, options);
-};
+};*/
